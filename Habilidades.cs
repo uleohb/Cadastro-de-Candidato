@@ -21,10 +21,10 @@ namespace CadastroCandidato
             InitializeComponent();
             candidatoId = id;
 
-            // Fundo geral do formulário
+            //Fundo geral do formulário
             this.BackColor = ColorTranslator.FromHtml("#0E1A2B");
 
-            // Panel central (borda do formulário)
+            //Panel central (borda do formulário)
             pnl_Habilidades.BackColor = ColorTranslator.FromHtml("#1E2A3A");
             pnl_Habilidades.BorderStyle = BorderStyle.FixedSingle;
 
@@ -34,13 +34,13 @@ namespace CadastroCandidato
             lbl_HtmlCss.ForeColor = ColorTranslator.FromHtml("#E6E6E6");
             lbl_Java.ForeColor = ColorTranslator.FromHtml("#E6E6E6");
 
-            // Botão principal
+            //Botão principal
             btn_RegistrarHabilidades.BackColor = ColorTranslator.FromHtml("#4A90E2");
             btn_RegistrarHabilidades.ForeColor = Color.White;
             btn_RegistrarHabilidades.FlatStyle = FlatStyle.Flat;
             btn_RegistrarHabilidades.FlatAppearance.BorderSize = 0;
 
-            // Botão secundário
+            //Botão secundário
             btn_Voltar.BackColor = ColorTranslator.FromHtml("#B0B0B0");
             btn_Voltar.ForeColor = Color.Black;
             btn_Voltar.FlatStyle = FlatStyle.Flat;
@@ -91,7 +91,7 @@ namespace CadastroCandidato
         }
         private void InserirHabilidade(SqlConnection conn, string linguagem, string nivel)
         {
-            // Só insere se o usuário tiver escolhido um nível
+            //se o usuário escolher um nível, ele salva no banco de dados
             if (!string.IsNullOrWhiteSpace(nivel))
             {
                 string query = "INSERT INTO HABILIDADES (CANDIDATO_ID, LINGUAGEM, NIVEL) VALUES (@CandidatoID, @Linguagem, @Nivel)";
@@ -113,3 +113,4 @@ namespace CadastroCandidato
         }
     }
 }
+
