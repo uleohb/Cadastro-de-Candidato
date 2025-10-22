@@ -13,16 +13,16 @@ namespace CadastroCandidato
 {
     public partial class Login : Form
     {
-        private string connectionString = @"Server=DESKTOP-TKES5KV;Database=CANDIDATURA;User Id=LEONARDO_ADMIN;Password=LEONARDO_ADMIN;";
+        private string connectionString = @"Server=DESKTOP-TKES5KV;Database=CANDIDATURA;User Id=LEONARDO_ADMIN;Password=LEONARDO_ADMIN;";//conexao com o banco de dados
 
         public Login()
         {
             InitializeComponent();
 
-            // Fundo geral do formulário
+            //Fundo geral do formulário
             this.BackColor = ColorTranslator.FromHtml("#0E1A2B");
 
-            // Panel central (borda do formulário)
+            //Panel central (borda do formulário)
             pnl_Login.BackColor = ColorTranslator.FromHtml("#1E2A3A");
             pnl_Login.BorderStyle = BorderStyle.FixedSingle;
 
@@ -38,19 +38,19 @@ namespace CadastroCandidato
             txt_Senha.ForeColor = Color.White;
             txt_Senha.BorderStyle = BorderStyle.FixedSingle;
 
-            // Botão principal
+            //Botão principal
             btn_Entrar.BackColor = ColorTranslator.FromHtml("#4A90E2");
             btn_Entrar.ForeColor = Color.White;
             btn_Entrar.FlatStyle = FlatStyle.Flat;
             btn_Entrar.FlatAppearance.BorderSize = 0;
 
-            // Botão secundário
+            //Botão secundário
             btn_CriarConta.BackColor = ColorTranslator.FromHtml("#B0B0B0");
             btn_CriarConta.ForeColor = Color.Black;
             btn_CriarConta.FlatStyle = FlatStyle.Flat;
             btn_CriarConta.FlatAppearance.BorderSize = 0;
 
-            // Efeito hover
+            //Efeito hover
             btn_Entrar.MouseEnter += (s, e) => btn_Entrar.BackColor = ColorTranslator.FromHtml("#5AA0FF");
             btn_Entrar.MouseLeave += (s, e) => btn_Entrar.BackColor = ColorTranslator.FromHtml("#4A90E2");
         }
@@ -125,12 +125,12 @@ namespace CadastroCandidato
             }
         }
 
-        private bool ValidarLogin(string email, string senha)
+        private bool ValidarLogin(string email, string senha) //validação do login do usuário
         {
 
             try
             {
-                using (SqlConnection conn = new SqlConnection(connectionString))
+                using (SqlConnection conn = new SqlConnection(connectionString))//string de conexão com o banco de dados
                 {
                     conn.Open();
 
@@ -155,3 +155,4 @@ namespace CadastroCandidato
         }
     }
 }
+
