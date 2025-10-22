@@ -91,7 +91,7 @@ namespace CadastroCandidato
                                 "Campos obrigatórios",
                 MessageBoxButtons.OK,
                 MessageBoxIcon.Warning);
-
+                return;
             }
 
             using (SqlConnection conexao = new SqlConnection(conexaoString))
@@ -159,3 +159,4 @@ namespace CadastroCandidato
         }
     }
 }
+
