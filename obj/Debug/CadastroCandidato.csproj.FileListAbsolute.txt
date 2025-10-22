@@ -1,0 +1,13 @@
+C:\Users\LeotaOn\Documents\Projetos Individuais\Projeto C#\CadastroCandidato\CadastroCandidato\bin\Debug\CadastroCandidato.exe.config
+C:\Users\LeotaOn\Documents\Projetos Individuais\Projeto C#\CadastroCandidato\CadastroCandidato\bin\Debug\CadastroCandidato.exe
+C:\Users\LeotaOn\Documents\Projetos Individuais\Projeto C#\CadastroCandidato\CadastroCandidato\bin\Debug\CadastroCandidato.pdb
+C:\Users\LeotaOn\Documents\Projetos Individuais\Projeto C#\CadastroCandidato\CadastroCandidato\obj\Debug\CadastroCandidato.csproj.AssemblyReference.cache
+C:\Users\LeotaOn\Documents\Projetos Individuais\Projeto C#\CadastroCandidato\CadastroCandidato\obj\Debug\CadastroCandidato.fml_TelaCadastro.resources
+C:\Users\LeotaOn\Documents\Projetos Individuais\Projeto C#\CadastroCandidato\CadastroCandidato\obj\Debug\CadastroCandidato.Properties.Resources.resources
+C:\Users\LeotaOn\Documents\Projetos Individuais\Projeto C#\CadastroCandidato\CadastroCandidato\obj\Debug\CadastroCandidato.csproj.GenerateResource.cache
+C:\Users\LeotaOn\Documents\Projetos Individuais\Projeto C#\CadastroCandidato\CadastroCandidato\obj\Debug\CadastroCandidato.csproj.CoreCompileInputs.cache
+C:\Users\LeotaOn\Documents\Projetos Individuais\Projeto C#\CadastroCandidato\CadastroCandidato\obj\Debug\CadastroCandidato.exe
+C:\Users\LeotaOn\Documents\Projetos Individuais\Projeto C#\CadastroCandidato\CadastroCandidato\obj\Debug\CadastroCandidato.pdb
+C:\Users\LeotaOn\Documents\Projetos Individuais\Projeto C#\CadastroCandidato\CadastroCandidato\obj\Debug\CadastroCandidato.exe.config
+C:\Users\LeotaOn\Documents\Projetos Individuais\Projeto C#\CadastroCandidato\CadastroCandidato\obj\Debug\CadastroCandidato.Login.resources
+C:\Users\LeotaOn\Documents\Projetos Individuais\Projeto C#\CadastroCandidato\CadastroCandidato\obj\Debug\CadastroCandidato.fml_Habilidades.resources
