@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -46,7 +46,7 @@ namespace CadastroCandidato
             btn_Voltar.FlatStyle = FlatStyle.Flat;
             btn_Voltar.FlatAppearance.BorderSize = 0;
 
-            //Efeito hover
+            // Efeito hover
             btn_RegistrarHabilidades.MouseEnter += (s, e) => btn_RegistrarHabilidades.BackColor = ColorTranslator.FromHtml("#5AA0FF");
             btn_RegistrarHabilidades.MouseLeave += (s, e) => btn_RegistrarHabilidades.BackColor = ColorTranslator.FromHtml("#4A90E2");
         }

@@ -1,4 +1,4 @@
-﻿namespace CadastroCandidato
+namespace CadastroCandidato
 {
     partial class fml_TelaCadastro
     {
@@ -255,4 +255,3 @@
         private System.Windows.Forms.Panel pnl_Cadastro;
     }
 }
-

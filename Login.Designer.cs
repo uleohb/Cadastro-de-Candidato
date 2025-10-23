@@ -1,4 +1,4 @@
-﻿namespace CadastroCandidato
+﻿﻿namespace CadastroCandidato
 {
     partial class Login
     {

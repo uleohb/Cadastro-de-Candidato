@@ -1,16 +1,9 @@
-﻿namespace CadastroCandidato
+namespace CadastroCandidato
 {
     partial class fml_Habilidades
     {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -22,10 +15,6 @@
 
         #region Windows Form Designer generated code
 
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
         private void InitializeComponent()
         {
             this.lbl_Habilidades = new System.Windows.Forms.Label();
@@ -49,7 +38,7 @@
             // lbl_Habilidades
             // 
             this.lbl_Habilidades.AutoSize = true;
-            this.lbl_Habilidades.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Habilidades.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold);
             this.lbl_Habilidades.ForeColor = System.Drawing.Color.White;
             this.lbl_Habilidades.Location = new System.Drawing.Point(43, 25);
             this.lbl_Habilidades.Name = "lbl_Habilidades";
@@ -73,7 +62,7 @@
             // lbl_CSharp
             // 
             this.lbl_CSharp.AutoSize = true;
-            this.lbl_CSharp.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_CSharp.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Bold);
             this.lbl_CSharp.Location = new System.Drawing.Point(45, 132);
             this.lbl_CSharp.Name = "lbl_CSharp";
             this.lbl_CSharp.Size = new System.Drawing.Size(33, 21);
@@ -83,7 +72,7 @@
             // lbl_Net
             // 
             this.lbl_Net.AutoSize = true;
-            this.lbl_Net.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Net.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Bold);
             this.lbl_Net.Location = new System.Drawing.Point(45, 191);
             this.lbl_Net.Name = "lbl_Net";
             this.lbl_Net.Size = new System.Drawing.Size(51, 21);
@@ -94,7 +83,7 @@
             // 
             this.cmb_NET.FormattingEnabled = true;
             this.cmb_NET.Items.AddRange(new object[] {
-            "Não possue ",
+            "Não possue",
             "Básico",
             "Intermediário",
             "Avançado"});
@@ -106,7 +95,7 @@
             // lbl_Sql
             // 
             this.lbl_Sql.AutoSize = true;
-            this.lbl_Sql.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Sql.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Bold);
             this.lbl_Sql.Location = new System.Drawing.Point(45, 252);
             this.lbl_Sql.Name = "lbl_Sql";
             this.lbl_Sql.Size = new System.Drawing.Size(111, 21);
@@ -116,7 +105,7 @@
             // lbl_HtmlCss
             // 
             this.lbl_HtmlCss.AutoSize = true;
-            this.lbl_HtmlCss.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_HtmlCss.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Bold);
             this.lbl_HtmlCss.Location = new System.Drawing.Point(45, 307);
             this.lbl_HtmlCss.Name = "lbl_HtmlCss";
             this.lbl_HtmlCss.Size = new System.Drawing.Size(102, 21);
@@ -127,7 +116,7 @@
             // 
             this.cmb_SQL.FormattingEnabled = true;
             this.cmb_SQL.Items.AddRange(new object[] {
-            "Não possue ",
+            "Não possue",
             "Básico",
             "Intermediário",
             "Avançado"});
@@ -152,7 +141,7 @@
             // lbl_Java
             // 
             this.lbl_Java.AutoSize = true;
-            this.lbl_Java.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Java.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Bold);
             this.lbl_Java.Location = new System.Drawing.Point(49, 360);
             this.lbl_Java.Name = "lbl_Java";
             this.lbl_Java.Size = new System.Drawing.Size(57, 21);
@@ -174,7 +163,7 @@
             // 
             // btn_RegistrarHabilidades
             // 
-            this.btn_RegistrarHabilidades.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_RegistrarHabilidades.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
             this.btn_RegistrarHabilidades.ForeColor = System.Drawing.Color.Black;
             this.btn_RegistrarHabilidades.Location = new System.Drawing.Point(97, 427);
             this.btn_RegistrarHabilidades.Name = "btn_RegistrarHabilidades";
@@ -186,7 +175,7 @@
             // 
             // btn_Voltar
             // 
-            this.btn_Voltar.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Voltar.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
             this.btn_Voltar.ForeColor = System.Drawing.Color.Black;
             this.btn_Voltar.Location = new System.Drawing.Point(149, 513);
             this.btn_Voltar.Name = "btn_Voltar";
@@ -199,7 +188,7 @@
             // lbl_ou
             // 
             this.lbl_ou.AutoSize = true;
-            this.lbl_ou.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_ou.Font = new System.Drawing.Font("Arial", 9F);
             this.lbl_ou.Location = new System.Drawing.Point(179, 474);
             this.lbl_ou.Name = "lbl_ou";
             this.lbl_ou.Size = new System.Drawing.Size(24, 17);
@@ -231,7 +220,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(26)))), ((int)(((byte)(43)))));
+            this.BackColor = System.Drawing.Color.FromArgb(14, 26, 43);
             this.ClientSize = new System.Drawing.Size(1446, 679);
             this.Controls.Add(this.pnl_Habilidades);
             this.ForeColor = System.Drawing.Color.White;
@@ -241,25 +230,13 @@
             this.pnl_Habilidades.ResumeLayout(false);
             this.pnl_Habilidades.PerformLayout();
             this.ResumeLayout(false);
-
         }
 
         #endregion
 
-        private System.Windows.Forms.Label lbl_Habilidades;
-        private System.Windows.Forms.ComboBox cmb_CSharp;
-        private System.Windows.Forms.Label lbl_CSharp;
-        private System.Windows.Forms.Label lbl_Net;
-        private System.Windows.Forms.ComboBox cmb_NET;
-        private System.Windows.Forms.Label lbl_Sql;
-        private System.Windows.Forms.Label lbl_HtmlCss;
-        private System.Windows.Forms.ComboBox cmb_SQL;
-        private System.Windows.Forms.ComboBox cmb_HTMLCSS;
-        private System.Windows.Forms.Label lbl_Java;
-        private System.Windows.Forms.ComboBox cmb_JAVA;
-        private System.Windows.Forms.Button btn_RegistrarHabilidades;
-        private System.Windows.Forms.Button btn_Voltar;
-        private System.Windows.Forms.Label lbl_ou;
+        private System.Windows.Forms.Label lbl_Habilidades, lbl_CSharp, lbl_Net, lbl_Sql, lbl_HtmlCss, lbl_Java, lbl_ou;
+        private System.Windows.Forms.ComboBox cmb_CSharp, cmb_NET, cmb_SQL, cmb_HTMLCSS, cmb_JAVA;
+        private System.Windows.Forms.Button btn_RegistrarHabilidades, btn_Voltar;
         private System.Windows.Forms.Panel pnl_Habilidades;
     }
 }
