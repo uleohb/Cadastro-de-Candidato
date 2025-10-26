@@ -117,7 +117,7 @@ namespace CadastroCandidato
                         cmd.ExecuteNonQuery();  
                     }
 
-                    MessageBox.Show("Cadastro realizado com sucessp.");
+                    MessageBox.Show("Cadastro realizado com sucesso.");
                     Login login = new Login();
                     login.Show();
                     this.Hide();
